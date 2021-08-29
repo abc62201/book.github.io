@@ -1,15 +1,86 @@
+{% csrf_token %}
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>测试</title>
-  <body>
-    <form name="form1" onSubmit="Mycheck()">
-      <input style='font-size:20px;' type="button" value="开始" onclick="javascript:kaishi();">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>俄罗斯方块</title>
+<style type="text/css">
+ .c{margin:1px; width:19px; height:19px; background:red; position:absolute;}
+ .d{margin:1px; width:19px; height:19px; background:gray; position:absolute;}
+ .f{top:0px; left:0px; background:black; position:absolute;}
+ .e{top:0px; background:#151515; position:absolute;}
+ .g{width:100px; height:20px; color:white; position:absolute;}
+</style>
+<script src="static/jquery-3.5.1.min.js"></script>
+<script src="static/e_fangkuai.js"></script>
+<script src="static/ajax.js"></script>
+<script src="static/loadxmldoc.js"></script>
+<script src="static/xml_du.js"></script>
+<script src="static/shuaxin.js"></script>
+<script src="static/fayan.js"></script>
+</head>
+<body>
+<div>
+<div style="width:320px; height:360px;  top:-10px; left:-10px;">
+<style onload="init()"></style>
+<div style="width:900px; height:700px;position:relative;overflow:auto; left:450px;border:1px solid #000">
+<p id="txt1">
+<!-- <p style='background: #ffffff;font-size:15px;'> -->
+欢迎大家使用铭迪机器人聊天游戏软件
+<!-- </p> -->
+</p>
+</div>
+</div>
+
+<div style="position:relative; top:0px; left:0px;">
+<form name="form1" onSubmit="Mycheck()">
+<input style='font-size:20px;' type="button" value="开始" onclick="javascript:kaishi();">
 <br><br>
 姓名<input type="text" size="10" id="name" name="name" />
 说<input type="text" size="20" id="shuo" name="shuo" />
-      </form>
-    </body>
-  </head>
-  </html>
+
+<input type="button" value="发言" onclick="javascript:fayan();">
+<br><br>
+使用<select id='ziti' name="ziti">
+<option value="volvo">字体大小</option>
+<option value="saab">中号字</option>
+<option value="fiat">大号字</option>
+<option value="audi">小号字</option>
+</select>
+使用<select id='yanse' name="yanse">
+<option value="volvo">字体颜色</option>
+<option value="saab">红色</option>
+<option value="fiat">蓝色</option>
+<option value="audi">粉丝</option>
+</select>
+使用<select id='bj' name="bj">
+<option value="volvo">底纹</option>
+<option value="saab">绿色</option>
+<option value="fiat">红色</option>
+<option value="audi">黄色</option>
+</select>
+
+</form>
+<table border="1">
+<tr><td>等级</td><td style="text-align:center;vertical-align:middle;">功能</td></tr>
+<tr style="color:#ff0000;"><td>1级</td><td>可使用字体大小-“中号字”</td></tr>
+<tr style="color:#00ff00;"><td>2级</td><td>可使用字体颜色-“红色”</td></tr>
+<tr style="color:#0000ff;"><td>3级</td><td>可使用字体底纹-“绿色”</td></tr>
+<tr style="color:#ffFF00;"><td>4级</td><td>可使用字体大小-“大号字”</td></tr>
+<tr style="color:#000000;"><td>5级</td><td>可使用字体颜色-“蓝色”</td></tr>
+<tr style="color:#ff00FF;"><td>6级</td><td>可使用字体底纹-“红色”</td></tr>
+<tr style="color:#00ffff;"><td>7级</td><td>可使用字体大小-“小号字”</td></tr>
+<tr style="color:#330000;"><td>8级</td><td>可使用字体颜色-“粉色”</td></tr>
+<tr style="color:#ff00FF;"><td>9级</td><td>可使用字体底纹-“黄色”</td></tr>
+</table>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
