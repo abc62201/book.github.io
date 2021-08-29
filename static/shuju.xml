@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><md_main_web_serve_xml>
+<books>
+<name>王老师
+</name><shuo>测试
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>0
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>王老师
+</name><shuo>测试2
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>21
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>王老师
+</name><shuo>同学们好
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>21
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>王老师
+</name><shuo>1
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>41
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>王老师
+</name><shuo>你是个傻子吗？
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>41
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>lu
+</name><shuo>你是吗
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>0
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>lu
+</name><shuo>12344
+</shuo><ziti>15px;
+</ziti><bj>background: #ffffff;
+</bj><shu>900
+</shu><yanse>color: #000000;
+</yanse></books><books>
+<name>lu
+</name><shuo>12345
+</shuo><ziti>50px;
+</ziti><bj>background: #ff0000;
+</bj><shu>900
+</shu><yanse>color: #ff00FF;
+</yanse></books></md_main_web_serve_xml>

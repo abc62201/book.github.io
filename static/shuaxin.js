@@ -1,0 +1,1 @@
+ setInterval("xml_du();",1000);
