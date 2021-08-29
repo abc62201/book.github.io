@@ -30,32 +30,7 @@ for (i=x.length;i>0;i--)
 	md_bj=md_bj.replace(/[\n]/g,"");
 	md_shu=md_shu.replace(/[\n]/g,"");
 	md_yanse=md_yanse.replace(/[\n]/g,"");
-	if(md_shu==''){md_shu='0';}
-	else if(parseInt(md_shu)<=99){md_shu='0';}
-	else if(parseInt(md_shu)>899){md_shu='9';}
-	else if(parseInt(md_shu)>799){md_shu='8';}
-	else if(parseInt(md_shu)>699){md_shu='7';}
-	else if(parseInt(md_shu)>599){md_shu='6';}
-	else if(parseInt(md_shu)>499){md_shu='5';}
-	else if(parseInt(md_shu)>399){md_shu='4';}
-	else if(parseInt(md_shu)>299){md_shu='3';}
-	else if(parseInt(md_shu)>199){md_shu='2';}
-	else if(parseInt(md_shu)>99){md_shu='1';}
-	c+='<p '
-	+'style="font-size:'+md_ziti
-	+md_bj
-	+md_yanse
-	+'">'
-	+'等级'
-	+md_shu
-	+'的'
-	+md_name
-	+'说：'
-	+md_shuo
-	
-	+'<br>'
-	+'<p>';
-	document.getElementById("txt1").innerHTML=c;
+	document.getElementById("txt1").innerHTML=md_name;
 //document.write(path+'<br>');
 	 
 }
