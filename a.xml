@@ -1,0 +1,21 @@
+<bookstore>
+	<book category="web">
+		<!-- 使用课程分类添加分类 -->
+		<fenlei>
+			<!-- 添加课程包链接 -->
+			<lianjie>产品分类.html</lianjie>
+			<!-- 放置分类图片 -->
+			<mig>./课程包/课程包_files/首页.jpg</mig>
+			<!-- 课程包名称 -->
+			<wenben>铭迪机器人俱乐部</wenben>
+			<!-- 网页编号第几层网页 -->
+			<id>1</id>
+		</fenlei>
+		<fenlei>
+			<lianjie>http://mixly.org/</lianjie>
+			<mig>media/logo.png</mig>
+			<wenben>爱上米思奇</wenben>
+			<id>1</id>
+		</fenlei>
+		</book>
+</bookstore>
