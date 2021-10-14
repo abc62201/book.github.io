@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<plp_yx_m>
+  <book>
+    <name>fc</name>
+    <lujing>EMU\VirtuaNES\VirtuaNES.exe</lujing>
+    <txt>红白机</txt>
+    <xmlfile>rom\fc\fclist.xml</xmlfile>
+    <dshj>theme\tv\tv.png</dshj>
+    <jiz>theme\console\family computer.png</jiz>
+    <bj>theme\bg3.png</bj>
+    <yemei>theme\head\ym4.png</yemei>
+    <renwu>theme\other\ninja.png</renwu>
+    <dll>kong</dll>
+  </book>
+  <book>
+    <name>md</name>
+    <lujing>EMU\Gens2.14\gens.exe</lujing>
+    <txt>世嘉</txt>
+    <xmlfile>rom\md\mdlist.xml</xmlfile>
+    <dshj>theme\tv\tv2.png</dshj>
+    <jiz>theme\console\console.png</jiz>
+    <bj>.\theme\bg2.jpg</bj>
+    <yemei>kong</yemei>
+    <renwu>theme\other\sonic.png</renwu>
+    <dll>E:\BaiduNetdiskDownload\Pegasus-wkzlm\RetroArch\cores\genesis_plus_gx_libretro.dll</dll>
+  </book>
+  <book>
+    <name>gba</name>
+    <lujing>EMU\VisualBoyAdvance\VisualBoyAdvance.exe</lujing>
+    <txt>掌机</txt>
+    <xmlfile>rom\gba\gbalist.xml</xmlfile>
+    <dshj>theme\tv\console.png</dshj>
+    <jiz>theme\console\gba2.png</jiz>
+    <bj>theme\bg.png</bj>
+    <yemei>theme\TEMP.png</yemei>
+    <renwu>theme\other\Pikachu.png</renwu>
+    <dll>kong</dll>
+  </book>
+</plp_yx_m>

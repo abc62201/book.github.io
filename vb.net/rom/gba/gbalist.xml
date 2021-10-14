@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<plp_yx_m>
+  <book>
+    <rom>rom\gba\rom\火炎之纹章-圣魔之光石.zip</rom>
+    <name>火炎之纹章-圣魔之光石</name>
+    <void>kong</void>
+    <kadai>kong</kadai>
+    <mig>rom\gba\Screen\火炎之纹章-圣魔之光石.png</mig>
+  </book>
+  <book>
+    <rom>rom\gba\rom\天外魔境青之天外（中文）.zip</rom>
+    <name>天外魔境青之天外</name>
+    <void>kong</void>
+    <kadai>kong</kadai>
+    <mig>rom\gba\Screen\天外魔境青之天外（中文）.png</mig>
+  </book>
+  <book>
+    <rom>rom\gba\rom\1977 - 海贼王-龙之梦 One Piece - Dragon Dream(JP)(Bandai)(128Mb).zip</rom>
+    <name>海贼王-龙之梦</name>
+    <void>kong</void>
+    <kadai>kong</kadai>
+    <mig>rom\gba\Screen\1977 - 海贼王-龙之梦 One Piece - Dragon Dream(JP)(Bandai)(128Mb).png</mig>
+  </book>
+  <book>
+    <rom>rom\gba\rom\口袋梦幻：梦幻寻宝幸存挑战！(简) [掌机王者汉化组] [B].zip</rom>
+    <name>口袋梦幻：梦幻寻宝幸存挑战！</name>
+    <void>kong</void>
+    <kadai>kong</kadai>
+    <mig>rom\gba\Screen\口袋梦幻：梦幻寻宝幸存挑战！(简) [掌机王者汉化组] [B].png</mig>
+  </book>
+  <book>
+    <rom>rom\gba\rom\口袋迷宫-赤之救助队.zip</rom>
+    <name>口袋迷宫-赤之救助队</name>
+    <void>kong</void>
+    <kadai>kong</kadai>
+    <mig>rom\gba\Screen\口袋迷宫-赤之救助队.png</mig>
+  </book>
+</plp_yx_m>
