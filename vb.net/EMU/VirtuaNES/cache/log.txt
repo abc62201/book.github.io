@@ -1,2 +1,0 @@
-2021-07-16 21:27:37	D:/work/go/src/SimUI/code/controller/Rom.go	56	fork/exec C:\Windows\explorer.exe: Access is denied.
-2021-07-16 21:27:47	D:/work/go/src/SimUI/code/controller/Rom.go	56	fork/exec C:\Windows\explorer.exe: Access is denied.
