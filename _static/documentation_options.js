@@ -1,9 +1,9 @@
 var DOCUMENTATION_OPTIONS = {
     URL_ROOT: document.getElementById("documentation_options").getAttribute('data-url_root'),
-    VERSION: 'latest',
-    LANGUAGE: 'zh',
+    VERSION: 'v1',
+    LANGUAGE: 'zh-CN',
     COLLAPSE_INDEX: false,
-    BUILDER: 'readthedocssinglehtmllocalmedia',
+    BUILDER: 'html',
     FILE_SUFFIX: '.html',
     LINK_SUFFIX: '.html',
     HAS_SOURCE: true,
